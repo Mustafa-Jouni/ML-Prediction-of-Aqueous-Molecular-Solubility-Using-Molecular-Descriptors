@@ -1,2 +1,7 @@
 # ML-Prediction-of-Aqueous-Molecular-Solubility-Using-Molecular-Descriptors
-The objective of this project was to develop and evaluate machine-learning models for predicting the experimentally measured logarithmic aqueous solubility of organic compounds from their SMILES representations.
+
+# Introduction
+Aqueous solubility is an important physicochemical property that influences the behavior of chemical compounds in pharmaceutical development, environmental transport, separation processes, and chemical product design. Experimental determination of solubility can be time-consuming and resource-intensive; therefore, computational models capable of estimating solubility directly from molecular structure are valuable screening tools. The objective of this project was to develop and evaluate machine-learning models for predicting the experimentally measured logarithmic aqueous solubility of organic compounds from their SMILES representations. The workflow included molecular structure processing, descriptor calculation, data preprocessing, exploratory analysis, feature selection, model development, hyperparameter optimization, and prediction of solubility for previously unseen molecules.
+
+# Dataset
+The project used the Delaney ESOL dataset, consisting of 1,144 organic compounds. Each observation included a compound identifier, a SMILES string, and an experimentally measured aqueous solubility value expressed as log(solubility:mol/L). The measured logarithmic solubility was treated as the continuous target variable. The SMILES strings were used to reconstruct molecular structures and generate numerical molecular descriptors for use as model inputs.
